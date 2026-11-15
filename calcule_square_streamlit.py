@@ -16,7 +16,7 @@ width = st.number_input("Enter the width in (m) : ", min_value=0.0)
 if st.button("Calculate"):
     
     surface = length * width
-    st.success(f"The surface of the area is: **{surface}**")
+    st.success(f"The surface of the area is: **{surface}** (m²)")
 
 
 #st.write('Hello World!')
