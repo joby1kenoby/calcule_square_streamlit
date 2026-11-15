@@ -8,8 +8,8 @@ st.write ("Enter your dimensions below to calculate the surface of a square or r
 #Create input fields
 
 
-length = input(st.number1("Enter the length in (m) : ", min_value=0.0))
-width = input(st.number2("Enter the width in (m) : ", min_value=0.0))
+length = st.number_input("Enter the length in (m) : ", min_value=0.0)
+width = st.number_input("Enter the width in (m) : ", min_value=0.0)
 
 # calculate button
 
