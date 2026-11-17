@@ -27,12 +27,12 @@ st.write(" Enter your dimensions below to calculate the perimeter of a square or
 
 
 
-length = st.number_input("Enter the length in (m) : ", min_value=0.0)
-width = st.number_input("Enter the width in (m) : ", min_value=0.0)
+l1 = st.number_input("Enter the l1 in (m) : ", min_value=0.0)
+l2 = st.number_input("Enter the l2 in (m) : ", min_value=0.0)
 
-perimeter = (length + width) * 2
+perimeter = (l1 + l2) * 2
 
-st.success(f"The perimeter of the area is: **(perimeter)** (m)")
+st.success(f"The perimeter of the area is: **{perimeter}** (m)")
 
 
 
