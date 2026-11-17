@@ -30,7 +30,7 @@ st.write(" Enter your dimensions below to calculate the perimeter of a square or
 l1 = st.number_input("Enter the l1 in (m) : ", min_value=0.0)
 l2 = st.number_input("Enter the l2 in (m) : ", min_value=0.0)
 
-if st.button("Calculate"):
+if st.button("Calculation"):
         
     perimeter = (l1 + l2) * 2
     st.success(f"The perimeter of the area is: **{perimeter}** (m)")
