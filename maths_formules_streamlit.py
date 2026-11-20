@@ -39,7 +39,7 @@ if st.button("Calculation"):
 
 # 2 Calculate the surface of triangle#
 
-st.title(*"Calculate the surface of triangle")
+st.title("Calculate the surface of triangle")
 st.write("Enter your base(dimension) and height below to calculate the surface of a triangle.")
 
 lb = st.number_input("Enter the base in (m) :", min_value=0.0)
