@@ -45,7 +45,7 @@ st.write("Enter your base(dimension) and height below to calculate the surface o
 lb = st.number_input("Enter the base in (m) :", min_value=0.0)
 lh = st.number_input("Enter the height in (m) :", min_value=0.0)
 
-if st.button("Calculate"):
+if st.button("Calculation"):
     
     surface_2 = (lb * lh) / 2
     st.success(f"The surface of the triangle is: **{surface_2}** (m²)")
