@@ -34,6 +34,26 @@ if st.button("Calculation"):
         
     perimeter = (l1 + l2) * 2
     st.success(f"The perimeter of the area is: **{perimeter}** (m)")
+    
+
+
+# 2 Calculate the surface of triangle#
+
+st.title(*"Calculate the surface of triangle")
+st.write("Enter your base(dimension) and height below to calculate the surface of a triangle.")
+
+lb = st.number_input("Enter the base in (m) :", min_value=0.0)
+lh = st.number_input("Enter the height in (m) :", min_value=0.0)
+
+if st.button("Calculate"):
+    
+    surface_2 = (lb * lh) / 2
+    st.success(f"The surface of the triangle is: **{surface_2}** (m²)")
+# hight = float(input("Enter the hight in (m) : "))
+
+# surface = (base * hight) / 2
+
+# print("The surface is equal to : ", surface, "m²")
 
 
 
